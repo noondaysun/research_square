@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1530027207">
-  <project timestamp="1530027207">
+<coverage generated="1530027441">
+  <project timestamp="1530027441">
     <package name="App">
       <file name="/home/feighen/workspace/research_square/src/printNumber.php">
         <class name="App\printNumber" namespace="App">
