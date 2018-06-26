@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1530026179">
-  <project timestamp="1530026179">
+<coverage generated="1530027207">
+  <project timestamp="1530027207">
     <package name="App">
       <file name="/home/feighen/workspace/research_square/src/printNumber.php">
         <class name="App\printNumber" namespace="App">
-          <metrics complexity="8" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="20" coveredelements="16"/>
+          <metrics complexity="9" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="24" coveredelements="24"/>
         </class>
-        <line num="8" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="9" type="stmt" count="4"/>
-        <line num="11" type="method" name="checkNumber" visibility="public" complexity="5" crap="5" count="4"/>
-        <line num="13" type="stmt" count="4"/>
-        <line num="15" type="stmt" count="4"/>
-        <line num="16" type="stmt" count="1"/>
-        <line num="17" type="stmt" count="1"/>
-        <line num="18" type="stmt" count="3"/>
-        <line num="19" type="stmt" count="1"/>
-        <line num="20" type="stmt" count="1"/>
-        <line num="21" type="stmt" count="2"/>
-        <line num="22" type="stmt" count="1"/>
-        <line num="23" type="stmt" count="1"/>
-        <line num="25" type="stmt" count="1"/>
-        <line num="26" type="stmt" count="1"/>
-        <line num="28" type="stmt" count="4"/>
-        <line num="31" type="method" name="doLoop" visibility="public" complexity="2" crap="6.00" count="0"/>
-        <line num="33" type="stmt" count="0"/>
-        <line num="34" type="stmt" count="0"/>
-        <line num="36" type="stmt" count="0"/>
-        <metrics loc="36" ncloc="36" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="20" coveredelements="16"/>
+        <line num="8" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="9" type="stmt" count="5"/>
+        <line num="11" type="method" name="checkNumber" visibility="public" complexity="5" crap="5" count="5"/>
+        <line num="13" type="stmt" count="5"/>
+        <line num="15" type="stmt" count="5"/>
+        <line num="16" type="stmt" count="2"/>
+        <line num="17" type="stmt" count="2"/>
+        <line num="18" type="stmt" count="4"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="5"/>
+        <line num="31" type="method" name="doLoop" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <metrics loc="42" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="24" coveredelements="24"/>
       </file>
     </package>
-    <metrics files="1" loc="36" ncloc="36" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="17" coveredstatements="14" elements="20" coveredelements="16"/>
+    <metrics files="1" loc="42" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="21" elements="24" coveredelements="24"/>
   </project>
 </coverage>

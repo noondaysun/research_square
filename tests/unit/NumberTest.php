@@ -39,6 +39,6 @@ class NumberTest extends TestCase
     public function testDoLoop()
     {
         $printNumber = new printNumber();
-        $this->assertInternalType('array', $printNumber->doLoop());
+        $this->assertInternalType('array', $printNumber->doLoop(100, true));
     }
 }

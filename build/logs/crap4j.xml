@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <crap_result>
   <project/>
-  <timestamp>2018-06-26 15:16:19</timestamp>
+  <timestamp>2018-06-26 15:33:27</timestamp>
   <stats>
     <name>Method Crap Stats</name>
     <methodCount>3</methodCount>
     <crapMethodCount>0</crapMethodCount>
     <crapLoad>0</crapLoad>
-    <totalCrap>12</totalCrap>
+    <totalCrap>9</totalCrap>
     <crapMethodPercent>0</crapMethodPercent>
   </stats>
   <methods>
@@ -37,11 +37,11 @@
       <package>App</package>
       <className>App\printNumber</className>
       <methodName>doLoop</methodName>
-      <methodSignature>doLoop()</methodSignature>
-      <fullMethod>doLoop()</fullMethod>
-      <crap>6</crap>
-      <complexity>2</complexity>
-      <coverage>0</coverage>
+      <methodSignature>doLoop(int $max = 100, bool $printToScreen): array</methodSignature>
+      <fullMethod>doLoop(int $max = 100, bool $printToScreen): array</fullMethod>
+      <crap>3</crap>
+      <complexity>3</complexity>
+      <coverage>100</coverage>
       <crapLoad>0</crapLoad>
     </method>
   </methods>
