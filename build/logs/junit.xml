@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="ProjectName" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.011744">
+    <testsuite name="Tests\NumberTest" file="/home/feighen/workspace/research_square/tests/unit/NumberTest.php" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.011744">
+      <testsuite name="Tests\NumberTest::testNumber" tests="4" assertions="4" errors="0" failures="0" skipped="0" time="0.011744">
+        <testcase name="testNumber with data set &quot;one&quot;" class="Tests\NumberTest" classname="Tests.NumberTest" file="/home/feighen/workspace/research_square/tests/unit/NumberTest.php" line="17" assertions="1" time="0.005879"/>
+        <testcase name="testNumber with data set &quot;three&quot;" class="Tests\NumberTest" classname="Tests.NumberTest" file="/home/feighen/workspace/research_square/tests/unit/NumberTest.php" line="17" assertions="1" time="0.002593"/>
+        <testcase name="testNumber with data set &quot;five&quot;" class="Tests\NumberTest" classname="Tests.NumberTest" file="/home/feighen/workspace/research_square/tests/unit/NumberTest.php" line="17" assertions="1" time="0.001774"/>
+        <testcase name="testNumber with data set &quot;fifteen&quot;" class="Tests\NumberTest" classname="Tests.NumberTest" file="/home/feighen/workspace/research_square/tests/unit/NumberTest.php" line="17" assertions="1" time="0.001498"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
