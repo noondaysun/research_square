@@ -14,7 +14,7 @@ class NumberTest extends TestCase
      * @param string $message
      * @return void
      */
-    public function testNumber(int $number, string $message)
+    public function testCheckNumber(int $number, string $message)
     {
         $printNumber = new printNumber();
         $this->assertEquals($printNumber->checkNumber($number), $message);
@@ -31,5 +31,14 @@ class NumberTest extends TestCase
             'five' => [5, 'Square'],
             'fifteen' => [15, 'Research Square'],
         ];
+    }
+    
+    /**
+     * @return void
+     */
+    public function testDoLoop()
+    {
+        $printNumber = new printNumber();
+        $this->assertInternalType('array', $printNumber->doLoop());
     }
 }
