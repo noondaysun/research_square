@@ -31,7 +31,7 @@ class printNumber
     public function doLoop(int $max = 100, bool $printToScreen): array
     {
         $return = [];
-        for ($i=1; $i<=$max; $i++) {
+        for ($i=0; $i<=$max; $i++) {
             $check = $this->checkNumber($i);
             if ($printToScreen) {
                 echo 'Number '. $i . ' ' . preg_replace('/[0-9]{1,}/', '', $check) . PHP_EOL;
